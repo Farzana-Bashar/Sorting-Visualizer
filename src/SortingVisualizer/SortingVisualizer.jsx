@@ -56,8 +56,8 @@ export default function SortingVisualizer() {
     }
 
   }
-  const quickSort=()=>{}
-  const selectionSort=()=>{}
+  // const quickSort=()=>{}
+  // const selectionSort=()=>{}
 
   return (
     <div className="array-container">
@@ -68,8 +68,8 @@ export default function SortingVisualizer() {
       ))}
       <button onClick={change}>Generate New Array</button>
       <button onClick={mergeSort}>Merge Sort</button>
-      <button onClick={quickSort}>Quick Sort</button>
-      <button onClick={selectionSort}>Selection Sort</button>
+      {/* <button onClick={quickSort}>Quick Sort</button>
+      <button onClick={selectionSort}>Selection Sort</button> */}
       
     </div>
   );
