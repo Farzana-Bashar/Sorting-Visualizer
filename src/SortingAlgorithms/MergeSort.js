@@ -1,8 +1,8 @@
-export default function MergeSort(array) {
+export function MergeSort(array) {
     const trace=[];
     if(array.length<=1) return array;
     const auxiliaryArray= array.slice(); //array.slice makes auxiliaryArray and array as two different object
-    mergeSort(array,0,array.length,auxiliaryArray,trace);
+    mergeSort(array,0,array.length-1,auxiliaryArray,trace);
     return trace;
 }
 
@@ -25,7 +25,7 @@ const merge=(mainArray,start,mid,end,auxiliaryArray,trace)=>{
     while(i<=mid && j<=end){
         trace.push([i,j]);
         trace.push([i,j]);
-        if(auxiliaryArray[i]<=auxiliaryArray[j]){
+        if(auxiliaryArray[i]<auxiliaryArray[j]){
             trace.push([k,auxiliaryArray[i]]);
             mainArray[k++]= auxiliaryArray[i++];
         }
