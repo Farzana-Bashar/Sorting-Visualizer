@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# Sort Visualizer
+I built this Sorting Algorithm Visualizer after watching [Clement Mihailescu 's video](https://www.youtube.com/watch?v=pFXYym4Wbkc&t=405s) on Sorting Visualizer.
+The main challange is to find two points in between which I want to sort and track those, because we need to change color and value (height of bar) for visualize the Sorting.
+
+This is a [progressive web app](https://web.dev/progressive-web-apps/) which is built using React.
+Visualize classic sorting algorithms such as Selection sort, merge sort etc.
+
+## To be implemented
+-Add a dropdown menu to all sort and Generate New Array button to sort.
+-Implement Different Sorting Algorithms and Visualization functions.
+-Getting huge help from [Clément Mihailescu's git repo](https://github.com/clementmihailescu/Sorting-Visualizer-Tutorial)
+
+## Notes
+-for every Sorting Visualizer, I am using two comparisions.
+-when I am comparing 2 bars first I change their color to red and again need to change to original color.
+-The main challange is to find two points in between which I want to sort and track those, because we need to change color and value (height of bar) for visualize the Sorting.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
