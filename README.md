@@ -3,7 +3,7 @@ I built this Sorting Algorithm Visualizer after watching [Clement Mihailescu 's 
 This is a [progressive web app](https://web.dev/progressive-web-apps/) which is built using React.
 Visualize classic sorting algorithms such as Selection sort, merge sort etc.
 
-The main challange is to find two points in between which I want to sort and track those(according to the different algorithms), because we need to change color and value (height of bar) for visualize the Sorting.
+The main challange I find is to find two points in between which I want to sort and track those(according to the different algorithms), because we need to change color and value (height of bar) for visualize the Sorting.
 
 ## To be implemented
 - Add a dropdown menu to all sort and Generate New Array button to sort.
