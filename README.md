@@ -1,5 +1,6 @@
 # Sort Visualizer
-I built this Sorting Algorithm Visualizer after watching [Clement Mihailescu 's video](https://www.youtube.com/watch?v=pFXYym4Wbkc&t=405s) on Sorting Visualizer.
+I built this Sorting Algorithm Visualizer after watching [Clement Mihailescu 's video](https://www.youtube.com/watch?v=pFXYym4Wbkc&t=405s) on Sorting Visualizer. I use Functional Component Instead of Class Based Component.
+
 This is a [progressive web app](https://web.dev/progressive-web-apps/) which is built using React.
 Visualize classic sorting algorithms such as Selection sort, merge sort etc.
 
@@ -15,7 +16,13 @@ The main challange I found is to find two points in between which I want to sort
 - When I am comparing 2 bars first I change their color to red and again need to change to original color.
 
 ## Images
+
 ![unsorted Array](/src/Screenshots/unsortedArray.png "Unsorted Array")
+![Merge Sort](/src/Screenshots/mergeSort1.png "Merge Sort ")
+![Merge Sort](/src/Screenshots/mergeSort2.png "Merge Sort")
+![Merge Sort](/src/Screenshots/mergeSort3.png "Merge Sort")
+![Slection Sort](/src/Screenshots/selectionSort1.png "Selection Sort")
+![Selection Sort](/src/Screenshots/selectionSort2.png "Selection Sort")
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
