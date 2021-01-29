@@ -1,5 +1,5 @@
 # Sort Visualizer
-I built this Sorting Algorithm Visualizer after watching [Clement Mihailescu 's video](https://www.youtube.com/watch?v=pFXYym4Wbkc&t=405s) on Sorting Visualizer. I use Functional Component Instead of Class Based Component.
+I built this Sorting Algorithm Visualizer after watching [Clement Mihailescu 's video](https://www.youtube.com/watch?v=pFXYym4Wbkc&t=405s) on Sorting Visualizer. I use [Functional Component](https://reactjs.org/docs/components-and-props.html) Instead of [Class Based Component](https://reactjs.org/docs/components-and-props.html).
 
 This is a [progressive web app](https://web.dev/progressive-web-apps/) which is built using React.
 Visualize classic sorting algorithms such as Selection sort, merge sort etc.
