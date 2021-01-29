@@ -14,7 +14,8 @@ The main challange I found is to find two points in between which I want to sort
 - For every Sorting Visualizer, I am using two comparisions.
 - When I am comparing 2 bars first I change their color to red and again need to change to original color.
 
-![unsorted Array](/src/Screenshots/unsortedArray.png 'Unsorted Array')
+## Images
+![unsorted Array](/src/Screenshots/unsortedArray.png "Unsorted Array")
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
