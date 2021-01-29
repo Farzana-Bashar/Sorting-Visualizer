@@ -19,7 +19,7 @@ export default function SortingVisualizer() {
 
   const getArray = () => {
     const array=[]
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 250; i++) {
       array[i] = randomIntFromIntervals(5, 500);
     }
     setArray(array);
